@@ -42,3 +42,30 @@
 // const sentence = "El perro de San Roque no tiene rabo"
 // console.log(sentence.split(" "));
 // console.log(sentence.split(""));
+
+// EJERCICIO 7
+
+const numbersArray =[];
+
+const userNumer = prompt("Ingrese un número.");
+
+function readNumbers(num) {
+    numbersArray.push(num);
+    for (let i = 0; i < )
+    
+}
+
+
+// EJERCICIO 8 
+
+const weeklyShifts = [
+    [Lunes, Maria],
+    [Martes, Luis],
+    [Miércoles, Antonia],
+    [Jueves, Pedro],
+    [Viernes, Marisa],
+    [Sábado, Sin servicio],
+    [Domingo, Sin servicio]
+]
+
+const serviceDay = prompt("Ingrese el día de la semana que quiere el servicio")
