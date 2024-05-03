@@ -33,3 +33,8 @@
 // names.splice(3,1,"Parma");
 // console.log(names);
 
+// // EJERCICIO 5 
+
+// console.log(names.join(" "));
+
+
