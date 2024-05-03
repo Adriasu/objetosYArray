@@ -37,4 +37,8 @@
 
 // console.log(names.join(" "));
 
+// // EJERCICIO 6 
 
+// const sentence = "El perro de San Roque no tiene rabo"
+// console.log(sentence.split(" "));
+// console.log(sentence.split(""));
