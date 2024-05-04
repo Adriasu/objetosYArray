@@ -43,21 +43,31 @@
 // console.log(sentence.split(" "));
 // console.log(sentence.split(""));
 
-// EJERCICIO 7
+// // EJERCICIO 7
 
-const numbersArray = [];
+// const numbersArray = [];
 
-function readNumbers() {
-  while (true) {
-    let enteredNumber = prompt("Ingresa número");
-    numbersArray.push(enteredNumber);
-    if (isNaN(enteredNumber) || enteredNumber == 0) break;
-  }
+// function readNumbers() {
+//   while (true) {
+//     let enteredNumber = prompt("Ingresa número");
+//     numbersArray.push(enteredNumber);
+//     if (isNaN(enteredNumber) || enteredNumber == 0) break;
+//   }
+//   numbersArray.pop();
+//   console.log(numbersArray);
 
-  
-}
-
-console.log(readNumbers());
+//   let evenCount = 0;
+//   let oddCount = 0;
+//   for (let i = 0; i < numbersArray.length; i++) {
+//     if (i % 2 === 0) {
+//       evenCount += 1;
+//     } else {
+//       oddCount += 1;
+//     }
+//   }
+//   return `Hay ${evenCount} números pares y hay ${oddCount} números impares.`;
+// }
+// console.log(readNumbers());
 
 // // EJERCICIO 8
 
