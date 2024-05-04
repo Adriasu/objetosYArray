@@ -94,3 +94,26 @@
 // }
 
 // console.log(customerService(serviceDay));
+
+// EJERCICIO 9
+
+const product = prompt("Ingrese producto (monitor, teclado, raton)").toLocaleLowerCase();
+
+const inventory = [
+    ["monitor", "200€"],
+    ["teclado", "20€"],
+    ["raton", "10€"]
+]
+
+function productPrice(product) {
+    for (i=0; i < inventory.length; i++){
+        if (product === inventory[i][0]){
+            return `El precio del ${inventory[i][0]} es ${inventory[i][1]}`
+        }
+    }
+    return "Producto no disponible"
+}
+
+console.log(productPrice(product));
+
+
