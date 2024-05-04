@@ -45,15 +45,19 @@
 
 // EJERCICIO 7
 
-// const numbersArray =[];
+const numbersArray = [];
 
-// const userNumer = prompt("Ingrese un número.");
+function readNumbers() {
+  while (true) {
+    let enteredNumber = prompt("Ingresa número");
+    numbersArray.push(enteredNumber);
+    if (isNaN(enteredNumber) || enteredNumber == 0) break;
+  }
 
-// function readNumbers(num) {
-//     numbersArray.push(num);
-//     for (let i = 0; i < )
+  
+}
 
-// }
+console.log(readNumbers());
 
 // // EJERCICIO 8
 
