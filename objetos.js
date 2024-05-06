@@ -119,3 +119,4 @@ function validateDNI(num, letra) {
 }
 
 console.log(validateDNI(enterDNI, enterLetter));
+
