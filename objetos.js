@@ -30,16 +30,37 @@
 
 // EJERCICIO 4
 
-const citizenArray = []
+// const userName = prompt("Ingrese su nombre");
+// const userLastName = prompt("Ingrese su apellido");
+// const userAge = prompt("Ingrese su edad");
+
+const citizenArray = [];
 
 function createCitizen(nombre, apellido, edad) {
-
-    if (typeof nombre, apellido, edad === "string"){
-        let user1 =
-
-    }
-
-
-    
+  if (
+    typeof nombre === "string" &&
+    typeof apellido === "string" &&
+    typeof edad === "string"
+  ) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = edad;
+    return;
+  } else return console.log("tipo de dato no valido");
 }
 
+function newObjet(userName, userLastName, userAge) {
+  let objetName = new createCitizen(userName, userLastName, userAge);
+  console.log(objetName);
+  citizenArray.push(objetName);
+  console.log(citizenArray);
+  return;
+}
+
+newObjet("adriana", "suárez", "33");
+newObjet("pepto", "juan", "30")
+
+// const user1 = new citizenArray("adriana", "suárez", "33");
+// console.log(user1);
+// citizenArray.push(user1);
+// console.log(citizenArray);
