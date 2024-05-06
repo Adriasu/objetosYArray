@@ -59,7 +59,7 @@ function readNumbers() {
   let evenCount = 0;
   let oddCount = 0;
   for (let i = 0; i < numbersArray.length; i++) {
-    if (i % 2 === 0) {
+    if (numbersArray[i] % 2 === 0) {
       evenCount += 1;
     } else {
       oddCount += 1;
