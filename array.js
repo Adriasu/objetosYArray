@@ -1,47 +1,48 @@
-// EJERCICIO 1
+// // EJERCICIO 1
 
-const firstArray = [];
+// const firstArray = [];
 
-// EJERCICIO 2
+// // EJERCICIO 2
 
-const secondArray = [3, "nana", true];
+// const secondArray = [3, "nana", true];
 
-// EJERCICIO 3.1
+// // EJERCICIO 3.1
 
-const animalArray = [];
+// const animalArray = [];
 
-animalArray.push("dog");
-animalArray.push("cat");
-animalArray.unshift("fish");
-animalArray.unshift("lizard");
+// animalArray.push("dog");
+// animalArray.push("cat");
+// animalArray.unshift("fish");
+// animalArray.unshift("lizard");
 
-animalArray.pop();
-animalArray.shift();
+// animalArray.pop();
+// animalArray.shift();
 
-console.log(animalArray.length);
+// console.log(animalArray.length);
 
-// EJERCICIO 3.2
+// // EJERCICIO 3.2
 
-const classNames = ["Gabriela", "Adriana", "Jesus Raad", "Andrea", "Javmir", "Roger", "Jesus Aleman"];
-console.log(classNames[1]);
+// const classNames = ["Gabriela", "Adriana", "Jesus Raad", "Andrea", "Javmir", "Roger", "Jesus Aleman"];
+// console.log(classNames[1]);
 
-// EJERCICIO 4
+// // EJERCICIO 4
 
 const names = ["Carlos", "María", "Isidro", "Elizondo", "Molina"];
-console.log(names.slice(1,3));
+// console.log(names.slice(1,3));
 
-names.splice(3,1,"Parma");
-console.log(names);
+// names.splice(3,1,"Parma");
+// console.log(names);
 
-// EJERCICIO 5
+// // EJERCICIO 5
 
-console.log(names.join(" "));
+// console.log(names.join(" "));
 
 // EJERCICIO 6
 
-const sentence = "El perro de San Roque no tiene rabo"
-console.log(sentence.split(" "));
-console.log(sentence.split(""));
+// const sentence = "El perro de San Roque no tiene rabo"
+// console.log(sentence.split(" "));
+// console.log(sentence.split(""));
+// console.log(sentence.split());
 
 // EJERCICIO 7
 
@@ -69,51 +70,51 @@ function readNumbers() {
 }
 console.log(readNumbers());
 
-// EJERCICIO 8
+// // EJERCICIO 8
 
-const serviceDay = prompt(
-  "Ingrese el día de la semana que quiere el servicio"
-).toLocaleLowerCase();
-const weeklyShifts = [
-  ["lunes", "maria"],
-  ["martes", "luis"],
-  ["miercoles", "antonia"],
-  ["jueves", "pedro"],
-  ["viernes", "marisa"],
-  ["sabado", "sin servicio"],
-  ["domingo", "sin servicio"],
-];
+// const serviceDay = prompt(
+//   "Ingrese el día de la semana que quiere el servicio"
+// ).toLocaleLowerCase();
+// const weeklyShifts = [
+//   ["lunes", "maria"],
+//   ["martes", "luis"],
+//   ["miercoles", "antonia"],
+//   ["jueves", "pedro"],
+//   ["viernes", "marisa"],
+//   ["sabado", "sin servicio"],
+//   ["domingo", "sin servicio"],
+// ];
 
-function customerService(serviceDay) {
-  for (let i = 0; i < weeklyShifts.length; i++) {
-    if (serviceDay === weeklyShifts[i][0]) {
-      return `Este dia se encarga ${weeklyShifts[i][1]}`;
-    }
-  }
-  return "Dato no válido";
-}
+// function customerService(serviceDay) {
+//   for (let i = 0; i < weeklyShifts.length; i++) {
+//     if (serviceDay === weeklyShifts[i][0]) {
+//       return `Este dia se encarga ${weeklyShifts[i][1]}`;
+//     }
+//   }
+//   return "Dato no válido";
+// }
 
-console.log(customerService(serviceDay));
+// console.log(customerService(serviceDay));
 
-// EJERCICIO 9
+// // EJERCICIO 9
 
-const product = prompt("Ingrese producto (monitor, teclado, raton)").toLocaleLowerCase();
+// const product = prompt("Ingrese producto (monitor, teclado, raton)").toLocaleLowerCase();s
 
-const inventory = [
-    ["monitor", "200€"],
-    ["teclado", "20€"],
-    ["raton", "10€"]
-]
+// const inventory = [
+//     ["monitor", "200€"],
+//     ["teclado", "20€"],
+//     ["raton", "10€"]
+// ]
 
-function productPrice(product) {
-    for (i=0; i < inventory.length; i++){
-        if (product === inventory[i][0]){
-            return `El precio del ${inventory[i][0]} es ${inventory[i][1]}`
-        }
-    }
-    return "Producto no disponible"
-}
+// function productPrice(product) {
+//     for (i=0; i < inventory.length; i++){
+//         if (product === inventory[i][0]){
+//             return `El precio del ${inventory[i][0]} es ${inventory[i][1]}`
+//         }
+//     }
+//     return "Producto no disponible"
+// }
 
-console.log(productPrice(product));
+// console.log(productPrice(product));
 
 
